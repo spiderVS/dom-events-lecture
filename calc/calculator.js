@@ -52,7 +52,7 @@ class Calculator {
     this.prevBtn = '=';
   }
 
-  _calculate(prevVal, currValue, operand) {
+  calculate(prevVal, currValue, operand) {
     const [val0, val1] = [prevVal, currValue].map(num => Number(num));
     let res = 0;
     switch (operand) {
